@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: Inter, sans-serif;
+    color: var(--color-white);
+    line-height: var(--line-height);
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+
+.card {
+    background-color: var(--color-grey-800);
+    width: 100%;
+    max-width: 384px;
+    height: auto;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 88px;
+    max-height: 88px;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: var(--primary-font-size);
+    line-height: var(--line-height);
+    font-weight: var(--bold-weight);
+    letter-spacing: var(--letter-spacing);
+}
+
+h2 {
+    font-size: var(--secondary-font-size);
+    font-weight: var(--bold-weight);
+    color: var(--color-green)
+}
+
+.desc {
+    margin: 0;
+    font-size: var(--secondary-font-size);
+    font-weight: var(--normal-weight);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+}
+
+.links li {
+    list-style-type: none;
+    background-color: var(--color-grey-700);
+    border-radius: 8px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: var(--color-white);
+    display: block;
+    padding: 12px 12px;
+    font-size: var(--secondary-font-size);
+    font-weight: var(--semi-bold-weight);
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+}
+
+.links li:hover {
+    background-color: var(--color-green);   
+}
+
+.links li a:hover {
+    color: var(--color-grey-700);
+}
+
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(249, 100%, 19%);
+} */
+
+
+/* <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> */

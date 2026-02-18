@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+:root {
+    /* Colors */
+    --color-grey-900: #141414;
+    --color-grey-800: #1F1F1F;
+    --color-grey-700: #333333;
+    --color-green: #C4F82A;
+    --color-white: #FFFFFF;
+
+    /* Typography */
+    --primary-font-size: 24px;
+    --secondary-font-size: 14px;
+    --letter-spacing: 0px;
+    --line-height: 150%;
+    --bold-weight: 700;
+    --semi-bold-weight: 600;
+    --normal-weight: 400;
+}
